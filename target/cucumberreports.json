@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login Playwaze application using Valid User",
+        "description": "",
+        "id": "community-administrator--register--into-the-system;login-playwaze-application-using-valid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81349400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Start Execution for Login Feature \"LoginValidUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LoginValidUser",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginValidation.AssignTestCaseNo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12542994100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User open the playwaze url",
+            "match": {
+              "location": "LoginValidation.OpenPlaywazeURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22990967200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Community Administrator provides valid username \u0026 password Clicks on sign in option",
+            "match": {
+              "location": "LoginValidation.LoginplaywazeWeb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Community Administrator should successfully log into the application.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@LoginValidUser"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Login Playwaze application using Valid User",
+        "description": "",
+        "id": "community-administrator--register--into-the-system;login-playwaze-application-using-valid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Start Execution for Login Feature \"LoginInValidUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LoginInValidUser",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginValidation.AssignTestCaseNo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Community Administrator should successfully log into the application.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@LoginInValidUser"
+          }
+        ]
+      }
+    ],
+    "name": "Community Administrator  Register  into the system",
+    "description": "",
+    "id": "community-administrator--register--into-the-system",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
